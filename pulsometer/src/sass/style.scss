@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  
+	&::before, &::after {
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+  }
+  
+  :focus, :active {
+	outline: none;
+  }
+  
+  a {
+	&:focus, &:active {
+	  outline: none;
+	}
+  }
+  
+  nav, footer, header, aside {
+	display: block;
+  }
+  
+  html, body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+  }
+  
+  input, button, textarea {
+	font-family: inherit;
+  }
+  
+  input::-ms-clear {
+	display: none;
+  }
+  
+  button {
+	cursor: pointer;
+  
+	&::-moz-focus-inner {
+	  padding: 0;
+	  border: 0;
+	}
+  }
+  
+  a {
+	text-decoration: none;
+  
+	&:visited, &:hover {
+	  text-decoration: none;
+	}
+  }
+  
+  ul li {
+	list-style: none;
+  }
+  
+  img {
+	vertical-align: top;
+  }
+  body {
+	  font-family: Museo Sans Cyrl;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+	font-weight: 400;
+  }
+@import 'base/variables';
+@import 'base/variables';
+@import "base/animations";
+
+
+  .wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+  }
+  
+  .main {
+	flex: 1 1 auto;
+  }
+
+  .container {
+	position: relative;
+	max-width: 950px;
+	margin: 0 auto;
+}
+@import 'blocks/header';
+@import 'blocks/promo';  
+@import 'blocks/buttons';
+@import 'blocks/titles';
+@import 'blocks/advantages';
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/clients";
+@import "blocks/modal";
+@import "blocks/pageup";
+@import "blocks/footer";
+
+
+
+

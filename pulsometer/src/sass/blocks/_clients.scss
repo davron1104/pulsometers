@@ -1,0 +1,58 @@
+.clients {
+    padding-bottom: 71px;
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        &__column {
+            display: flex;
+            align-items: center;
+            &:not(:last-child) {
+                border-bottom: 1px solid #f6f6f6;
+                padding-bottom: 48px;
+            }
+            &:not(:first-child) {
+                padding-top: 49px;
+            }
+            &_first {
+                .clients-wrapper__name {
+                    margin-bottom: 10px;
+                }
+            }
+            &_second {
+                .clients-wrapper__name {
+                    margin-bottom: 14px;
+                }
+            }
+            &_third {
+                .clients-wrapper__name {
+                    margin-bottom: 11px;
+                }
+            }
+        }
+
+        &__image {
+            margin-right: 61px;
+        }
+        &__name {
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+        }    
+        &__marafone {
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 19px;
+        }    
+        &__text {
+            color: #0d0d0d;
+            font-size: 16px;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: left;
+        }
+     
+    }
+}

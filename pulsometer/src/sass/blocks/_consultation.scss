@@ -1,0 +1,23 @@
+.consultation {
+    min-height: 680px;
+    padding: 92px 0px 92px 0px;
+    background: url('../images/img/form-bg.jpg') center (center / cover) no-repeat;
+    &__descr {
+        line-height: 23px;
+        letter-spacing: .5px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        letter-spacing: .3px;     
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+}

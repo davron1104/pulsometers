@@ -1,0 +1,64 @@
+.advantages {
+    background-color: #f6f6f6;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: baseline;
+        padding-bottom: 87px;
+        &:first-child .advantages__title {
+            margin-bottom: 26px;
+        }
+        &:first-child .advantages__descr {
+            width: 239px;
+        }
+        &:nth-child(2) .advantages__title {
+            margin-bottom: 25px;
+        }
+        &:nth-child(2) .advantages__descr {
+            width: 243px;
+        }
+        &:last-child .advantages__title {
+            margin-bottom: 29px;
+        }
+        &:last-child .advantages__descr {
+            width: 247px;
+        }
+        a {
+            color: #ff0000;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-decoration: underline;
+        }
+    }
+    &__icon {
+        margin-bottom: 38px;
+        &_animated {
+            animation: pulpitation 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+    &__title {
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+}
+    &__descr {color: #0d0d0d;
+        font-family: "Museo Sans Cyrl";
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+ }
